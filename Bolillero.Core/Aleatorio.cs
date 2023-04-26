@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace Bolillero.Core;
 
-namespace Bolillero.Core
+public class Aleatorio : IAleatorio
 {
-    public class Aleatorio
-    {
-        
-    }
+    public int IndiceAleatorio(int limite) => Random.Shared.Next(limite);
 }

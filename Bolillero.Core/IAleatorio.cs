@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace Bolillero.Core;
 
-namespace Bolillero.Core
+public interface IAleatorio
 {
-    public interface IAleatorio
-    {
-        
-    }
+    int IndiceAleatorio(int limite);
 }
